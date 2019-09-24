@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PORTAFOLIO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+<header class="item header">
+    <nav class="navBar">
+        <a href="#id-firstContend">INICIO</a>
+        <a href="#id-aboutMe">ACERCA DE MI</a>
+        <a href="#id-projects">MIS PROYECTOS</a>
+        <a href="#id-contact">CONTACTO</a>
+    </nav>
+</header>
+
+    <div id="id-firstContend" class="item firstContend">
+        <div id="table">
+            <div id="centeralign">
+                <h1>Viridiana Avellaneda Medina</h1>
+                <p>Front-End Developer.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="id-aboutMe" class="item aboutMe">
+        <div class="textAboutMe">
+            <p><strong>Sobre mi...</strong> <br><br>
+                Soy una persona responsable, organizada, creativa y proactiva ante cualquier circunstancia,
+                porque estoy comprometida con mi desarrollo y aprendizaje. </p>
+        </div>
+        <div class="me">
+            <img src="img/me.png" alt="Retrato">
+        </div>
+    </div>
+
+
+    <div id="id-projects" class="item projects">
+        <div class="slideShow-container">
+            <div class="mySlides fade"><img class="slide" src="img/cineTrivia.PNG" alt="Cine Trivia"></div>
+            <div class="mySlides fade"><img class="slide" src="img/redSocial.PNG" alt="Padlock"></div>
+            <div class="mySlides fade"><img class="slide" src="img/labcar.PNG" alt="Lab Car"></div>
+            <a class="img-previous" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="img-next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <div id="id-contact" class="item contact">CONTACTO</div>
+    <div id="footer" class="item footer">Footer</div>
+</div>
+
+
+<script src="portafolio.js"></script>
+</body>
+</html>
