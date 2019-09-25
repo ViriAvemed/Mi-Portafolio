@@ -70,9 +70,9 @@ nav ul li a {
 
 /*    CONTACT*/
 
-/*.reds {*/
-/*    width: 30px;*/
-/*}*/
+.reds {
+    width: 3em;
+}
 
 /*!*PROJECTS*!*/
 
@@ -121,6 +121,10 @@ h6 {
     display: table-cell;
     vertical-align: middle;
 }
+
+
+/*INF CONTACT*/
+
 
 
 
