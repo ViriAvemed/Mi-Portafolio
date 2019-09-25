@@ -1,32 +1,22 @@
-let slideIndex = 1;
-showSlides(slideIndex);
+$(document).ready(function() {
+    $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing");
+    });
+});
 
-function plusSlides(n) {
+// Scrolling Effect
 
-    showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-    let i;
-    const slides = document.getElementsByClassName("mySlides");
-    const dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+$(window).on("scroll", function() {
+    if($(window).scrollTop()) {
+        $('nav').addClass('black');
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-}
 
-//NAME EFFECT
+    else {
+        $('nav').removeClass('black');
+    }
+});
+
+//Name
 function typeEffect(element, speed) {
     const text = element.innerHTML;
     element.innerHTML = "";
@@ -45,16 +35,16 @@ function typeEffect(element, speed) {
 
 // application
 const speed = 75;
-const h1 = document.querySelector('h1');
-const p = document.querySelector('p');
-const delay = h1.innerHTML.length * speed + speed;
+const h4 = document.querySelector('h4');
+const h6 = document.querySelector('h6');
+const delay = h4.innerHTML.length * speed + speed;
 
 // type affect to header
-typeEffect(h1, speed);
+typeEffect(h4, speed);
 
 
 // type affect to body
 setTimeout(function(){
-    p.style.display = "inline-block";
-    typeEffect(p, speed);
+    h6.style.display = "inline-block";
+    typeEffect(h6, speed);
 }, delay);

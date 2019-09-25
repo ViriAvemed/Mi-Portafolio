@@ -1,71 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>PORTAFOLIO</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
-<div class="container">
-<header class="item header">
-    <nav class="navBar">
-        <a href="#id-firstContend">INICIO</a>
-        <a href="#id-aboutMe">ACERCA DE MI</a>
-        <a href="#id-projects">MIS PROYECTOS</a>
-        <a href="#id-contact">CONTACTO</a>
-    </nav>
+<header>
+    <div class="row">
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre mi</a></li>
+                    <li><a href="#">Experiencias</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+                <div  class="name">
+                    <div id="centeralign">
+                        <h4>Viridiana Avellaneda Medina</h4>
+                        <h6>Front-end Developert</h6>
+
+                    </div>
+            </div>
+        </nav>
+    </div>
 </header>
 
-    <div id="id-firstContend" class="item firstContend">
-        <div id="table">
-            <div id="centeralign">
-                <h1>Viridiana Avellaneda Medina</h1>
-                <p>Front-End Developer.</p>
+<main>
+    <div class="container">
+        <div class="row portafolio">
+            <div class="col">
+                <h2 class="titulo">PROYECTOS</h2>
+                <div class="row galeria justify-content-center">
+
+                    <div class="card border rounded col-12 col-md-6 col-lg-3">
+                        <img src="img/cineTrivia.PNG" class="card-img-top img-fluid imagen" alt="">
+                        <div class="card-body">
+                            <p class="card-title font-weight-bold">Cine Trivia </p>
+                            <p class="card-text text-justify">
+                                Trivia de películas de marvel y disney, realizada con HTML5 CSS3 JavaScript.
+                            </p>
+                            <a href="https://viriavemed.github.io/Trivia/" target="_blank" class="btn btn-dark btn-block">Proyecto</a>
+                            <a href="https://github.com/ViriAvemed/Trivia" target="_blank" class="btn btn-light btn-block">Código</a>
+                        </div>
+                    </div>
+
+                    <div class="card border rounded col-12 col-md-6 col-lg-3">
+                        <img src="img/padlock.PNG" class="card-img-top img-fluid imagen" alt="">
+                        <div class="card-body">
+                            <p class="card-title font-weight-bold">Padlock </p>
+                            <p class="card-text text-justify">
+                                El proyecto tiene la finalidad de cifrar y decifrar
+                                contraseñas, y fue realizado con  HTML5 CSS3 JavaScript.
+                            </p>
+                            <a href="https://viriavemed.github.io/MEX-008-Cipher/src/" target="_blank" class="btn btn-dark btn-block">Proyecto</a>
+                            <a href="https://github.com/ViriAvemed/MEX-008-Cipher"  target="_blank" class="btn btn-light btn-block">Código</a>
+                        </div>
+                    </div>
+
+                    <div class="card border rounded col-12 col-md-6 col-lg-3">
+                        <img src="img/dataLovers.PNG" class="card-img-top img-fluid imagen" alt="">
+                        <div class="card-body">
+                            <p class="card-title font-weight-bold">Data-Lovers </p>
+                            <p class="card-text text-justify">
+                                Permite ordenar y filtrar las  características de los campeones del juego en línea
+                                League of Legends.
+                            </p>
+                            <a href="https://anabahena.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank" class="btn btn-dark btn-block">Proyecto</a>
+                            <a href="https://github.com/ViriAvemed/MEX-Data-Lovers-008"  target="_blank" class="btn btn-light btn-block">Código</a>
+                        </div>
+                    </div>
+                    <div class="card border rounded col-12 col-md-6 col-lg-3">
+                        <img src="img/labcar.PNG" class="card-img-top img-fluid imagen" alt="">
+                        <div class="card-body">
+                            <p class="card-title font-weight-bold">LabCar </p>
+                            <p class="card-text text-justify">
+                                Proyecto implementado con CSS3, la finalidad consistio en
+                                seguir un diseño ya elaborado sin contar con medidas o patrones.
+                            </p>
+                            <a href="https://viriavemed.github.io/LabCar-MEX008/" target="_blank" class="btn btn-dark btn-block">Proyecto</a>
+                            <a href="https://github.com/ViriAvemed/LabCar-MEX008"  target="_blank" class="btn btn-light btn-block">Código</a>
+                        </div>
+                    </div>
+                    <div class="card border rounded col-12 col-md-6 col-lg-3">
+                        <img src="img/redSocial.PNG" class="card-img-top img-fluid imagen" alt="">
+                        <div class="card-body">
+                            <p class="card-title font-weight-bold">Womendevs </p>
+                            <p class="card-text text-justify">
+                                Red social para mujeres del mundo tech, Sigle-Page Application elaborada
+                                con  HTML5, Javascrip, Bootstrap 4 yFirebase.
+                            </p>
+                            <a href="https://sofiamejiamuro.github.io/WOMENDEV-SocialNetworkProject/" target="_blank" class="btn btn-dark btn-block">Proyecto</a>
+                            <a href="https://github.com/ViriAvemed/MEX008-social-network" target="_blank" class="btn btn-light btn-block">Código</a>
+                        </div>
+                    </div>
+                    <div class="card border rounded col-12 col-md-6 col-lg-3">
+                        <img src="img/mdLinks.PNG" class="card-img-top img-fluid imagen" alt="">
+                        <div class="card-body">
+                            <p class="card-title font-weight-bold">Md-Links </p>
+                            <p class="card-text text-justify">
+                                Permite encontrar los links en archivos tipo Markdown,
+                                verificar si estan activos y contabilizarlos, realizado con HTML5, JavaScript y NodeJs.
+                            </p>
+                            <a href="#" class="btn btn-dark btn-block">Proyecto</a>
+                            <a href="https://github.com/ViriAvemed/MEX008-FE-md-link"  target="_blank" class="btn btn-light btn-block">Código</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
+</main>
 
-    <div id="id-aboutMe" class="item aboutMe">
-        <div class="textAboutMe">
-            <p><strong>Sobre mi...</strong> <br><br>
-                Como persona organizada y con una gran motivación,
-                soy capaz de adaptarme a cualquier circunstancia y dar
-                siempre lo mejor de mí en cualquier proyecto,
-                al mismo tiempo que me esfuerzo por trabajar en equipo y
-                fomentar valores como los del compañerismo.
-                </p>
-        </div>
-        <div class="me">
-            <img src="img/me.png" alt="Retrato">
-        </div>
-    </div>
-
-
-    <div id="id-projects" class="item projects">
-        <div class="slideShow-container">
-            <div class="mySlides fade"><img class="slide" src="img/cineTrivia.PNG" alt="Cine Trivia"></div>
-            <div class="mySlides fade"><img class="slide" src="img/redSocial.PNG" alt="Padlock"></div>
-            <div class="mySlides fade"><img class="slide" src="img/labcar.PNG" alt="Lab Car"></div>
-            <a class="img-previous" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="img-next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-    </div>
-
-    <div id="id-contact" class="item contact">CONTACTO</div>
-    <div id="footer" class="item footer">Footer</div>
-</div>
+<!--<div class="row">-->
+<!--    <div>-->
+<!--        <img src="img/CONTACTO.jpg" style="height: 90vh" alt="contacto">-->
+<!--    </div>-->
+<!--    <div>-->
+<!--        <h2>Información de contacto</h2>-->
+<!--        <div>-->
+<!--            <a href="https://github.com/ViriAvemed" target="_blank"><img class="reds" src="img/logotipo-de-github.png" alt="Github"></a>-->
+<!--            <a href="https://www.linkedin.com/in/viridiana-avellaneda-269a90161/" target="_blank"><img class="reds"  src="img/linkedin.png" alt="Linkedin"></a>-->
+<!--            <a href="https://www.facebook.com/viridiana.avellanedamedina" target="_blank"><img class="reds" src="img/facebook.png" alt="Facebook"></a>-->
+<!--            <img class="reds" src="img/gmail.png" alt="Linkedin">-->
+<!--            <img class="reds" src="img/llamada-de-telefono-inteligente.png" alt="Linkedin">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 <script src="portafolio.js"></script>
 </body>
 </html>
