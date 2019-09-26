@@ -5,7 +5,7 @@
 /*}*/
 
 body {
-    font-family: "Helvetica Neue",sans-serif;
+   font-family: 'Poppins', sans-serif;
     font-weight: lighter;
 }
 
@@ -72,7 +72,21 @@ nav ul li a {
 
 .reds {
     width: 3em;
+    padding-top: 17px;
+    padding-bottom: 9px;
 }
+
+.row-contact {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #e9eae4;
+}
+
+.row-contact p {
+    font-size: 14px;
+}
+
 
 /*!*PROJECTS*!*/
 
@@ -126,7 +140,21 @@ h6 {
 /*INF CONTACT*/
 
 
+/*FOOTER*/
+.footer {
+    background:#1d2731;
+    height: 10vh;
+}
 
+.nav-footer {
+    background: #1d2731;
+    color: #c6c8ca;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 @media(max-width: 786px) {
     .name {
