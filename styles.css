@@ -9,13 +9,15 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: url(https://images.pexels.com/photos/574283/pexels-photo-574283.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat 50% 50%;
     background-size: cover;
 }
 
-
+#id-projects {
+    width: 100vw;
+}
 nav {
     position: fixed;
     width: 100%;
@@ -25,7 +27,7 @@ nav {
 }
 
 nav ul {
-    line-height: 60px;
+    line-height: 40px;
     list-style: none;
     background: rgba(0, 0, 0, 0);
     overflow: hidden;
@@ -42,6 +44,7 @@ nav.black ul {
 
 nav.black ul li a{
     color: white;
+    text-decoration: none;
 }
 
 nav ul li {
@@ -70,10 +73,11 @@ nav ul li a {
 /*    CONTACT*/
 
 .reds {
-    width: 3em;
+    width: 5em;
     padding-top: 17px;
     padding-bottom: 9px;
 }
+
 
 .row-contact {
     height: 100vh;
@@ -124,6 +128,7 @@ nav ul li a {
 
 .section-contact {
     background: #FAFAFA;
+    width: 100vw;
 }
 
 .portfolio .galeria .card {
@@ -140,14 +145,17 @@ nav ul li a {
 .card img {
     height: 100%;
     padding-top: 1.5em;
-
 }
+
+
 nav.black .name {
     display: none;
 }
 
-nav.black ul li a:hover{
+nav.black ul li a:hover {
     color: #6D7993;
+    border-bottom: white solid 2px;
+    text-decoration: none;
 }
 .name {
     width: 100%;
@@ -187,7 +195,7 @@ h6 {
 .footer {
     background:#1d2731;
     height: 10vh;
-    width: 100%;
+    width: 100vw;
 }
 
 .nav-footer {
@@ -239,13 +247,7 @@ h6 {
         z-index: 9;
     }
 
-    .title-contact {
-        padding: 0;
-        margin-top: 0.7em;
-        font-size: 2em;
 
-
-    }
     .portfolio .title {
         font-size: 2em;
         padding: 1em 0;
@@ -255,5 +257,14 @@ h6 {
          margin-top: 2.5em;
     }
 
+
+}
+
+@media(max-width: 760px) {
+    .title-contact {
+        padding: 0;
+        margin-top: 0.7em;
+        font-size: 2em;
+    }
 
 }
