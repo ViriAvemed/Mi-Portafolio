@@ -48,3 +48,6 @@ setTimeout(function(){
     h6.style.display = "inline-block";
     typeEffect(h6, speed);
 }, delay);
+
+
+

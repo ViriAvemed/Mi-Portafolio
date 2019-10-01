@@ -9,9 +9,12 @@
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto|Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/8796logo1.ico">
 
 </head>
 <body>
+
 <header>
     <div class="row">
         <nav>
@@ -23,8 +26,8 @@
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Sobre mi</a></li>
                     <li><a href="#">Experiencias</a></li>
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#id-projects">Proyectos</a></li>
+                    <li><a href="#id-contact">Contacto</a></li>
                 </ul>
                 <div  class="name">
                     <div id="centeralign">
@@ -36,11 +39,11 @@
         </nav>
     </div>
 </header>
-<main>
+<main id="id-projects">
     <div class="container">
-        <div class="row portafolio">
+        <div class="row portfolio">
             <div class="col">
-                <h2 class="titulo">PROYECTOS</h2>
+                <h2 class="title">MIS PROYECTOS</h2>
                 <div class="row galeria justify-content-center">
                     <div class="card border rounded col-12 col-md-6 col-lg-3">
                         <img src="img/cineTrivia.PNG" class="card-img-top img-fluid imagen" alt="">
@@ -119,41 +122,39 @@
     </div>
 </main>
 
-<section class="section-contact">
+<section id="id-contact" class="section-contact">
     <div class="container">
         <div class="row d-flex row-contact">
             <div class="col col-contact">
-                <div class="row">
-                    <h2 class="text-center">CONTACTO</h2>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <a href="https://github.com/ViriAvemed" target="_blank"><img class="reds" src="img/logotipo-de-github.png" alt="Github"></a><br>
+                <h2 class="d-block d-lg-none title-contact text-center" >CONTACTO</h2>
+                <h2 class="d-none d-lg-block title-contact text-center">INFORMACIÓN DE CONTACTO</h2>
+                    <div class=" row-contact-icon row justify-content-center">
+                        <div class="grow col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                            <a href="https://github.com/ViriAvemed" target="_blank"><img class="reds" src="img/logotipo-de-github.png" alt="Github"></a><br>
+                        </div>
+                        <div class=" grow col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                            <a href="https://www.linkedin.com/in/viridiana-avellaneda-269a90161/" target="_blank"><img class="reds"  src="img/linkedin.png" alt="Linkedin"></a>
+                        </div>
+                        <div class="grow col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                            <img title="viridiana.avem@gmail.com" class="reds" src="img/gmail.png" alt="gmail">
+                        </div>
+                        <div class=" grow col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                            <img class=" reds" src="img/llamada-de-telefono-inteligente.png" alt="Linkedin">
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <a href="https://www.linkedin.com/in/viridiana-avellaneda-269a90161/" target="_blank"><img class="reds"  src="img/linkedin.png" alt="Linkedin"></a>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <img class="reds" src="img/gmail.png" alt="gmail">
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <img class=" reds" src="img/llamada-de-telefono-inteligente.png" alt="Linkedin">
-                        <p class="text-center">viridiana.avem@gmail.com</p>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <p class="d-none d-lg-block">/ViriAvemed</p>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <p class="d-none d-lg-block">Viridiana Avellaneda</p>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <p class="text-center">viridiana.avem@gmail.com</p>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
-                        <p class="text-center">55-18-73-12-99</p>
-                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                            <p class="d-none d-lg-block">/ViriAvemed</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                            <p class="d-none d-lg-block">Viridiana Avellaneda</p>
+                        </div>
+                        <div  class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                            <p  class="d-none d-lg-block text-center">viridiana.avem@gmail.com</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center">
+                            <p class="text-center">55-18-73-12-99</p>
+                        </div>
                 </div>
             </div>
         </div>
