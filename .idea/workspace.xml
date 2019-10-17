@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90df141d-4142-477d-9492-e36c01c95889" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/angular-material.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/angular.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bootstrap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/figma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/firebase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/git.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/js.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/node.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/xd.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -80,7 +69,8 @@
       <workItem from="1570490469188" duration="9834000" />
       <workItem from="1570566835702" duration="1135000" />
       <workItem from="1571170762295" duration="602000" />
-      <workItem from="1571251091612" duration="15189000" />
+      <workItem from="1571251091612" duration="15468000" />
+      <workItem from="1571339492077" duration="3765000" />
     </task>
     <servers />
   </component>
