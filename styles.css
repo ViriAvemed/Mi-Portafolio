@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
@@ -68,7 +72,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: none;
     border-bottom: #24292e solid 4px;
-    color: white;
+    color: #24292e;
     padding-bottom: 9px;
 }
 
@@ -115,7 +119,9 @@ nav ul li a:hover {
     font-weight: bold;
     font-size: 4.5em;
     padding-bottom: 1.2em;
+    padding-top: 1.5em;
     color: #3F4448;
+    text-shadow: 5px 5px 5px #aaa;
 }
 
 .title-contact {
@@ -126,6 +132,7 @@ nav ul li a:hover {
     padding-top: 1.5em;
     padding-bottom: 2.2em;
     color: #3F4448;
+    text-shadow: 5px 5px 5px #aaa;
 
 
 }
@@ -238,8 +245,9 @@ h6 {
     font-weight: bold;
     font-size: 4.5em;
     padding-top: 1.5em;
-    padding-bottom: 1.2em;
+    padding-bottom: 0.6em;
     color: #3F4448;
+    text-shadow: 5px 5px 5px #aaa;
 }
 
     /*knowledge*/
@@ -247,7 +255,7 @@ h6 {
 .about-knowledge{
     background: #FAFAFA;
     margin-top: 8em;
-    margin-bottom: 13em;
+    padding-bottom: 13em;
 }
 
 .column-know{
@@ -339,13 +347,11 @@ h6 {
 
     nav ul {
         max-height: 0;
-        /*background: #00B0B3;*/
         color: hsla(0,0%,100%,.7);
         background-color: #24292e;
     }
 
     nav.black ul {
-        /*background: #00B0B3;*/
         color: hsla(0,0%,100%,.7);
         background-color: #24292e;
     }
@@ -370,6 +376,7 @@ h6 {
     .portfolio .title {
         font-size: 2em;
         padding: 1em 0;
+
     }
 
     .row-contact-icon {
