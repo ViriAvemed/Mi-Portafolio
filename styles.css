@@ -11,17 +11,22 @@ body {
 header {
     width: 100vw;
     height: 100vh;
-    background: url(https://images.pexels.com/photos/574283/pexels-photo-574283.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat 50% 50%;
+    background: url(img/background.jpeg) no-repeat 50% 50% ;
     background-size: cover;
+
 }
+
+
+/*PROJECTS*/
 
 #id-projects {
     width: 100vw;
+    margin-top: 8em;
+    margin-bottom: 13em;
 }
 nav {
     position: fixed;
     width: 100%;
-    /*line-height: 60px;*/
     right: 0;
     z-index: 9;
 }
@@ -39,7 +44,9 @@ nav ul {
 }
 
 nav.black ul {
-    background: #00B0B3;;
+
+    color: hsla(0,0%,100%,.7);
+    background-color: #24292e;
 }
 
 nav.black ul li a{
@@ -60,20 +67,20 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: none;
-    border-bottom: #00B0B3 solid 4px;
-    color: #00B0B3;
+    border-bottom: #24292e solid 4px;
+    color: white;
     padding-bottom: 9px;
 }
 
 .menu-icon {
     line-height: 60px;
     width: 100%;
-    background: #1d2731;
+    background: #24292e;
     text-align: right;
     box-sizing: border-box;
     padding: 15px 24px;
     cursor: pointer;
-    color: #fff;
+    color: white;
     display: none;
 }
 
@@ -107,9 +114,8 @@ nav ul li a:hover {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 4.5em;
-    padding-top: 1.5em;
-    padding-bottom: 0.2em;
-    color: #00B0B3;
+    padding-bottom: 1.2em;
+    color: #3F4448;
 }
 
 .title-contact {
@@ -118,8 +124,8 @@ nav ul li a:hover {
     font-weight: bold;
     font-size: 4.5em;
     padding-top: 1.5em;
-    padding-bottom: 0.2em;
-    color: #00B0B3;
+    padding-bottom: 2.2em;
+    color: #3F4448;
 
 
 }
@@ -136,38 +142,46 @@ nav ul li a:hover {
 .section-contact {
     background: #FAFAFA;
     width: 100vw;
+    margin-top: 8em;
 }
 
 .portfolio .galeria .card {
     margin-bottom: 40px;
     margin-left: 1em;
     margin-right: 1em;
+    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+    border-radius: .75rem;
+
 }
 
 .card:hover {
-    background:#6D7993;
+    background:#3f4448;
     color: white;
 }
 
 .card img {
     height: 100%;
     padding-top: 1.5em;
+
 }
 
+.btn-block{
+    width: 50%!important;
+}
 
 nav.black .name {
     display: none;
 }
 
 nav.black ul li a:hover {
-      color: #6D7993;
-    border-bottom: white solid 4px;
+      color: #D3D3D3;
+    border-bottom: #D3D3D3 solid 4px;
     text-decoration: none;
     padding-bottom: 9px;
 }
 .name {
     width: 100%;
-    padding-left: 26%;
+    padding-left:40%;
     padding-top: 10%;
 }
 
@@ -175,7 +189,9 @@ h4 {
     font-weight: bold;
     letter-spacing: 1pt;
     font-size: 3em;
-    font-family: 'Cuprum', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #24292e;
+    text-shadow: 5px 5px 5px #aaa;
 }
 
 h6 {
@@ -185,6 +201,7 @@ h6 {
     font-weight: 900;
     width: 50%;
     display: none;
+    font-family: 'Poppins', sans-serif;
 }
 #centeralign {
     display: table-cell;
@@ -193,14 +210,17 @@ h6 {
 /*ABOUT ME*/
 .about-section {
     width: 100vw;
-    /*height: 100vh;*/
-    background: #FAFAFA;
+    margin-top: 8em;
+    margin-bottom: 13em;
+
 
 }
 .about-section p {
     color: #6C757D;
     text-align: justify;
     text-space: 10;
+    letter-spacing: 3px;
+    line-height: 28px;
 }
 
 
@@ -218,11 +238,18 @@ h6 {
     font-weight: bold;
     font-size: 4.5em;
     padding-top: 1.5em;
-    padding-bottom: 1em;
-    color: #00B0B3;
+    padding-bottom: 1.2em;
+    color: #3F4448;
 }
 
     /*knowledge*/
+
+.about-knowledge{
+    background: #FAFAFA;
+    margin-top: 8em;
+    margin-bottom: 13em;
+}
+
 .column-know{
     display: grid;
 }
@@ -282,13 +309,12 @@ h6 {
 
 /*FOOTER*/
 .footer {
-    background:#00B0B3;;
     height: 10vh;
     width: 100vw;
 }
 
 .nav-footer {
-    background: #00B0B3;
+    background: #21262E;
     color: #c6c8ca;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -313,11 +339,15 @@ h6 {
 
     nav ul {
         max-height: 0;
-        background: #00B0B3;;
+        /*background: #00B0B3;*/
+        color: hsla(0,0%,100%,.7);
+        background-color: #24292e;
     }
 
     nav.black ul {
-        background: #00B0B3;;
+        /*background: #00B0B3;*/
+        color: hsla(0,0%,100%,.7);
+        background-color: #24292e;
     }
 
     .showing {
@@ -358,12 +388,35 @@ h6 {
         text-align: justify;
         text-space: 5;
         font-size: 14px;
+
     }
 
 
 }
+@media (max-width: 600px)
+{
+    .about-section {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .about-knowledge {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    #id-projects {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .section-contact {
+        margin-top: 2em;
+    }
+}
 
 @media(max-width: 768px) {
+    .title-contact {
+        margin-top: 0.7em;
+        font-size: 2em;
+    }
 
     .about-title {
         font-size: 2em;
@@ -379,6 +432,10 @@ h6 {
 
     .photo img {
         height: auto;
+    }
+
+    #centeralign {
+        padding-left: 25%;
     }
 
 }
