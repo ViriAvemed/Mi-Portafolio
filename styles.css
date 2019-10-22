@@ -238,7 +238,7 @@ h6 {
 .photo img {
     width: 84%;
     padding: 3%;
-
+    box-shadow: 5px 5px 0 #333;
 }
 .about-title {
     font-family: 'Poppins', sans-serif;
