@@ -35,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MEX008-FE-Burger-Queen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../EJERCICIOS/ejercicioGrid" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
@@ -68,7 +68,14 @@
       <workItem from="1569909527155" duration="9150000" />
       <workItem from="1569946802446" duration="4270000" />
       <workItem from="1569961659206" duration="6319000" />
-      <workItem from="1570490469188" duration="8890000" />
+      <workItem from="1570490469188" duration="9834000" />
+      <workItem from="1570566835702" duration="1135000" />
+      <workItem from="1571170762295" duration="602000" />
+      <workItem from="1571251091612" duration="15468000" />
+      <workItem from="1571339492077" duration="3765000" />
+      <workItem from="1571347232295" duration="72000" />
+      <workItem from="1571424639118" duration="3185000" />
+      <workItem from="1571686416163" duration="13568000" />
     </task>
     <servers />
   </component>
