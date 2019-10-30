@@ -17,38 +17,25 @@ $(window).on("scroll", function() {
     }
 });
 
-//Name
-function typeEffect(element, speed) {
-    const text = element.innerHTML;
-    element.innerHTML = "";
-
-    let i = 0;
-    const timer = setInterval(function () {
-        if (i < text.length) {
-            element.append(text.charAt(i));
-            i++;
-        } else {
-            clearInterval(timer);
-        }
-    }, speed);
-}
 
 
-// application
-const speed = 75;
-const h4 = document.querySelector('h4');
-const h6 = document.querySelector('h6');
-const delay = h4.innerHTML.length * speed + speed;
+// Effect loader
+$(document).ready(function() {
+    // Users can skip the loading process if they want.
+    $('.skip').click(function() {
+        $('.overlay2, body').addClass('loaded');
+    });
 
-// type affect to header
-typeEffect(h4, speed);
+    // Will wait for everything on the page to load.
+    $(window).bind('load', function() {
+        $('.overlay2, body').addClass('loaded');
+        setTimeout(function() {
+            $('.overlay2').css({'display':'none'})
+        }, 2000)
+    });
 
-
-// type affect to body
-setTimeout(function(){
-    h6.style.display = "inline-block";
-    typeEffect(h6, speed);
-}, delay);
-
-
-
+    // Will remove overlay after 1min for users cannnot load properly.
+    setTimeout(function() {
+        $('.overlay2, body').addClass('loaded');
+    }, 60000);
+});
