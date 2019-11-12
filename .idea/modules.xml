@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PORTAFOLIO.iml" filepath="$PROJECT_DIR$/.idea/PORTAFOLIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/vanillajs-spa.iml" filepath="$PROJECT_DIR$/.idea/vanillajs-spa.iml" />
     </modules>
   </component>
 </project>
