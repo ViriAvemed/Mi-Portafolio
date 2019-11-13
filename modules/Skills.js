@@ -2,7 +2,7 @@ let Skills = {
     render: async () => {
         return  `
             <section  id="id-knowledge" class="about-knowledge">
-                <div class="row">
+                <div class="row rowKnows">
                     <div class="col">
                         <h2 class="text-center myName mb-5">MIS HABILIDADES</h2>
                         <div class="row">

@@ -35,7 +35,7 @@ $(window).load(()=> {
     const goUp =()=> {
         $(".up").show();
         $(".up").animate({
-            top: "-=50%"
+            right: "-=100%"
         }, 1000, ()=> {
             $(this).hide();
         });
@@ -44,7 +44,7 @@ $(window).load(()=> {
     const goDown =()=>  {
         $(".down").show();
         $(".down").animate({
-            bottom: "-=50%"
+            left: "-=100%"
         }, 1000, ()=> {
             $(this).hide();
         });

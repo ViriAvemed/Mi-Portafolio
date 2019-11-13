@@ -2,7 +2,7 @@ let About = {
     render : async () => {
         return `
             <section class="container aboutMe">
-                <div class="row">
+                <div class="row rowAboutMe">
                     <div class="col-12 ">
                           <h2 class="text-center myName mb-3">ACERCA DE MÍ</h2>                         
                           <div class="row containerAboutMeTitles text-justify">
@@ -32,10 +32,11 @@ let About = {
                              saludable soy una persona constante, disciplinada y resiliente.
                             </p>
                           </div>
-                          <div class="row containerAboutMeTitles">
-                          <div class="d-flex justify-content-end mt-3">
-                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" target="_blank" class="btn btn btn-outline-dark btn-block mt-0 ml-1 mr-1 btnAboutMe">Abrir currículum</a>
-                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" download="Acme Documentation (ver. 2.0.1).pdf" class="btn btn btn-outline-dark btn-block mt-0 ml-1 btnAboutMe">Descargar currículum</a>
+                          <div id="btnCV" class="row containerAboutMeTitles">
+                          <div  class="d-flex justify-content-end mt-3">
+                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" target="_blank"  class="d-none d-sm-block btn btn btn-outline-dark btn-block mt-0 ml-1 mr-1 btnAboutMe">Abrir currículum</a>
+                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" target="_blank"  class="d-block d-sm-none btn btn btn-outline-dark btn-block mt-0 ml-1 mr-1 btnAboutMe">CV</a>
+                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" download="Acme Documentation (ver. 2.0.1).pdf" class="d-none d-sm-block btn btn btn-outline-dark btn-block mt-0 ml-1 btnAboutMe">Descargar currículum</a>
                           </div>
                           </div>
                     </div>

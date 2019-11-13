@@ -4,10 +4,10 @@ let Home = {
         return `
             <div class="container position-absolute container1">
                 <div class="row row1">
-                    <div class="col-4 containerRetract">
+                    <div class="col-sm-12 col-md-4 containerRetract">
                         <img src="css/img/me2.jpg" alt="retract" class="myRetract">
                     </div>
-                    <div class="col-8 colName">
+                    <div class="col-sm-12 col-md-8 colName">
                         <p class="myName">VIRIDIANA </p>
                         <p class="job">AVELLANEDA MEDINA</p>
                         <p class="job">DESARROLLADORA FROND-END</p>

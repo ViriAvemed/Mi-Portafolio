@@ -1,9 +1,7 @@
-/*ANIMATION PRELOADER*/
-
 body,
 html {
     font-family: "Montserrat", serif;
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
     max-width: 100%;
     background-color: #FFFFFF;
     overflow-x:hidden;
@@ -12,6 +10,57 @@ html {
 #body{
     height: 100vh;
 }
+
+/*HOME*/
+.colName{
+    display: block;
+    padding-top: 5%;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.myName{
+    color: black;
+    font-size: 4rem;
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif
+}
+.containerRetract{
+    display: flex;
+    justify-content: flex-end;
+    padding-right:4%!important;
+}
+.job{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color:#4d4d4d;
+    margin: 0 2% 0 0;
+}
+
+.job3 a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    color:black!important;
+    margin:  3% 2% 2% 0;
+    cursor: pointer;
+}
+
+
+.container1 {
+    padding-top: 10%;
+}
+
+.row1 {
+    width: 100vw;
+}
+.myRetract {
+    width: 60%;
+}
+
+/*ANIMATION PRELOADER*/
 
 .wrapper {
     width: 100vw;
@@ -38,14 +87,14 @@ div .loading .spin .class{
 
 .spin {
     -webkit-animation: spin 1s infinite linear;
-    -moz-animation: spin 2s infinite linear;
-    -o-animation: spin 2s infinite linear;
+    -moz-animation: spin 1s infinite linear;
+    -o-animation: spin 1s infinite linear;
     animation: spin 1s infinite linear;
     width: 94vw;
 }
 
 .spin {
-    -ms-animation: spin 2s infinite linear;
+    -ms-animation: spin 1 infinite linear;
 }
 
 @keyframes spin {
@@ -117,20 +166,20 @@ div .loading .spin .class{
 
 .up {
     background-color: black;
-    width: 100vw;
-    height: 50vh;
+    width: 50vw;
+    height: 100vh;
     position: absolute;
-    top: 0;
+    right: 0;
     z-index:2;
 
 }
 
 .down {
     background-color: black;
-    width: 100vw;
-    height: 50vh;
+    width: 50vw;
+    height: 100vh;
     position: absolute;
-    bottom: 0;
+    left: 0;
     z-index:2;
 }
 
@@ -262,21 +311,6 @@ body.light-mode button {
     height: 40px;
     cursor: pointer;
 }
-.containerAboutMeTitles {
-    font-family: 'Oswald', sans-serif;
-}
-
-.aboutMeTitles{
-    font-size: 22px;
-    text-transform: uppercase;
-    font-weight: 100;
-    letter-spacing: 3px;
-}
-.containerAboutMeTitlesP {
-    font-size: 14px!important;
-    font-weight: normal;
-}
-
 
 /*MAVBAR*/
 
@@ -292,53 +326,6 @@ body .wrapper2 {
     padding: 59px 0;
 }
 
-.colName{
-    display: block;
-    padding-top: 5%;
-    justify-content: start;
-    align-items: center;
-
-}
-
-.myName{
-    color: black;
-    font-size: 4rem;
-    margin: 0;
-    font-style: normal;
-    font-weight: 700;
-    font-family: 'Oswald', sans-serif
-}
-.containerRetract{
-    display: flex;
-    justify-content: flex-end;
-    padding-right:4%!important;
-}
-.job{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    color:#4d4d4d;
-    margin: 0 2% 0 0;
-}
-
-.job3 a{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.8rem;
-    color:black!important;
-    margin:  3% 2% 2% 0;
-    cursor: pointer;
-}
-
-
-.container1 {
-    padding-top: 10%;
-}
-
-.row1 {
-    width: 100vw;
-}
-.myRetract {
-    width: 60%;
-}
 body .wrapper2 span {
     z-index: 1;
     position: absolute;
@@ -376,14 +363,14 @@ body .wrapper2 .overlay {
 body .wrapper2 .overlay.anim {
     left: 0;
     bottom: 0;
-    animation: menu-anim 1.5s 1 ease-out normal;
+    animation: menu-anim 0.5s 1 ease-out normal;
     width: 100%;
     transition: all 0.5s ease;
 }
 body .wrapper2 .overlay.anim.reverse-anim {
     left: 0;
     bottom: 0;
-    animation: menu-anim 1.5s 1 ease-out reverse;
+    animation: menu-anim 0.5s 1 ease-out reverse;
     width: 100%;
     transition: all 0.5s ease;
 }
@@ -460,6 +447,82 @@ body .wrapper2 .overlay ul li a:hover:after {
     }
 }
 
+@media(max-width: 600px) {
+    body .wrapper2 span {
+        width: 50px;
+        height: 50px;
+        top: 9.5%;
+        left: 5%;
+    }
+    .change-color-icon {
+        top: 66px;
+    }
+    body .wrapper2 {
+        width: 38vh;
+    }
+
+    .containerRetract {
+        justify-content: center;
+        padding-top: 9%;
+        padding-right: 9% !important;
+
+    }
+
+    .myName {
+        padding-left: 10%;
+    }
+
+    .job {
+        padding-left: 13%;
+        font-size: 22px;
+    }
+
+
+   #btnCV {
+        display: flex;
+        justify-content: flex-end;
+        width: 73vw;
+    }
+
+   .aboutMe .rowAboutMe {
+       width: 60vw;
+       padding-top: 10%;
+   }
+
+    .aboutMe .rowAboutMe .myName {
+        padding-left: 0;
+    }
+
+    .row-contact {
+        padding-top: 27%!important;
+        margin-bottom:0!important;
+    }
+
+    .row-contact .myName {
+        padding-left: 0;
+        font-size: 3em;
+    }
+
+    .rowKnows {
+        padding-top: 20%;
+    }
+
+    .rowKnows .myName {
+        font-size: 3em;
+        padding-left: 0;
+    }
+
+    .rowProjects {
+        padding-top: 20%;
+    }
+
+    .rowProjects .myName {
+        font-size: 3em;
+        padding-left: 0;
+    }
+
+}
+
 /*ABOUT ME*/
 .about-section {
     width: 100vw;
@@ -467,9 +530,23 @@ body .wrapper2 .overlay ul li a:hover:after {
     margin-top: 8em;
     margin-bottom: 13em;
     z-index: -1;
-
-
 }
+
+.containerAboutMeTitles {
+    font-family: 'Oswald', sans-serif;
+}
+
+.aboutMeTitles{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.containerAboutMeTitlesP {
+    font-size: 14px!important;
+    font-weight: normal;
+}
+
 .about-section p {
     color: #6C757D;
     text-align: justify;

@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +88,7 @@
       <workItem from="1573272692258" duration="627000" />
       <workItem from="1573508580844" duration="8201000" />
       <workItem from="1573602034045" duration="8385000" />
-      <workItem from="1573651533432" duration="610000" />
+      <workItem from="1573651533432" duration="7376000" />
     </task>
     <servers />
   </component>

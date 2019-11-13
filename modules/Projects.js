@@ -3,11 +3,11 @@ let Projects = {
         return /*html*/ `
             <section id="id-projects">
                 <div class="container">
-                    <div class="row">
+                    <div class="row rowProjects">
                         <div class="col myProjects">
                             <h2 class="text-center myName mb-4">MIS PROYECTOS</h2>
                             <div class="row mt-5">
-                                <div class="card border rounded col">
+                                <div class="card border rounded col-auto">
                                     <img src="css/img/dataLovers.PNG" class="card-img-top img-fluid imagen" alt="">
                                     <div class="card-body">
                                        <p class="card-title font-weight-bold">Data-Lovers </p>
@@ -15,13 +15,13 @@ let Projects = {
                                        Permite ordenar y filtrar las  características de los campeones del juego en línea
                                        League of Legends.
                                        </p>
-                                        <div class=" d-flex justify-content-center ">
+                                        <div class=" d-flex justify-content-center">
                                            <a  class="btn btn-dark btn-block" href="https://anabahena.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank" >Proyecto</a>
                                            <a  class="btn btn-dark btn-block mt-0 ml-1"  href="https://github.com/ViriAvemed/MEX-Data-Lovers-008"  target="_blank" >Código</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card border rounded col">
+                                <div class="card border rounded col-auto">
                                     <img src="css/img/redSocial.PNG" class="card-img-top img-fluid imagen" alt="">
                                     <div class="card-body">
                                         <p class="card-title font-weight-bold">Womendevs </p>
@@ -35,7 +35,7 @@ let Projects = {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card border rounded col">
+                                <div class="card border rounded col-auto">
                                     <img src="css/img/changarro.PNG" class="card-img-top img-fluid imagen" alt="">
                                     <div class="card-body">
                                         <p class="card-title font-weight-bold">Changarro</p>
