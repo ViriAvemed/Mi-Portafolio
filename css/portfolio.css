@@ -1,7 +1,7 @@
 body,
 html {
     font-family: "Montserrat", serif;
-    /*overflow-y: hidden;*/
+    overflow-y: hidden;
     max-width: 100%;
     background-color: #FFFFFF;
     overflow-x:hidden;
