@@ -4,10 +4,10 @@ import Home         from './modules/Home.js'
 import About        from './modules/About.js'
 import Error404     from './modules/Error404.js'
 import Projects     from './modules/Projects.js'
-import Contact       from './modules/Contact.js';
+import Contact      from './modules/Contact.js'
+import Skills       from './modules/Skills.js'
 
 import Navbar       from './modules/Navbar.js'
-
 import Utils        from './modules/Utils.js'
 
 // List of supported routes. Any url other than these routes will throw a 404 error
@@ -16,6 +16,7 @@ const routes = {
     , '/about'      : About
     , '/projects'   : Projects
     , '/contact'    : Contact
+    , '/skills'     : Skills
 };
 
 const router = async () => {
