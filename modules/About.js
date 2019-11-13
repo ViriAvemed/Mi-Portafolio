@@ -34,8 +34,8 @@ let About = {
                           </div>
                           <div class="row containerAboutMeTitles">
                           <div class="d-flex justify-content-end mt-3">
-                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" target="_blank" class="btn btn btn-outline-dark btn-block mt-0 ml-1 mr-1">Abrir currículum</a>
-                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" download="Acme Documentation (ver. 2.0.1).pdf" class="btn btn btn-outline-dark btn-block mt-0 ml-1">Descargar currículum</a>
+                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" target="_blank" class="btn btn btn-outline-dark btn-block mt-0 ml-1 mr-1 btnAboutMe">Abrir currículum</a>
+                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" download="Acme Documentation (ver. 2.0.1).pdf" class="btn btn btn-outline-dark btn-block mt-0 ml-1 btnAboutMe">Descargar currículum</a>
                           </div>
                           </div>
                     </div>

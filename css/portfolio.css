@@ -204,6 +204,17 @@ body.light-mode .wrapper2 .overlay ul {
 body.dark-mode a {
     color: #FEFEFE;
 }
+
+body.dark-mode .btnAboutMe {
+    background-color:  #1F2022;
+    color: #FEFEFE;
+}
+
+body.dark-mode .btnAboutMe {
+    background-color: #FEFEFE;
+    color:#1F2022;
+}
+
 body.light-mode .wrapper2 span  {
     background-color:  #1F2022;
     color: #FEFEFE;
@@ -466,6 +477,7 @@ body .wrapper2 .overlay ul li a:hover:after {
     letter-spacing: 3px;
     line-height: 28px;
 }
+
 
 .photo {
     height: 70%;
