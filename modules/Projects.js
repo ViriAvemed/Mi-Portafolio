@@ -7,7 +7,7 @@ let Projects = {
                         <div class="col myProjects">
                             <h2 class="text-center myName mb-4">MIS PROYECTOS</h2>
                             <div class="row mt-5">
-                                <div class="card border rounded col-auto">
+                                <div class="card border rounded col-sm-12 col-md-4">
                                     <img src="css/img/dataLovers.PNG" class="card-img-top img-fluid imagen" alt="">
                                     <div class="card-body">
                                        <p class="card-title font-weight-bold">Data-Lovers </p>
@@ -21,7 +21,7 @@ let Projects = {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card border rounded col-auto">
+                                <div class="card border rounded col-sm-12 col-md-4">
                                     <img src="css/img/redSocial.PNG" class="card-img-top img-fluid imagen" alt="">
                                     <div class="card-body">
                                         <p class="card-title font-weight-bold">Womendevs </p>
@@ -35,7 +35,7 @@ let Projects = {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card border rounded col-auto">
+                                <div class="card border rounded col-sm-12 col-md-4">
                                     <img src="css/img/changarro.PNG" class="card-img-top img-fluid imagen" alt="">
                                     <div class="card-body">
                                         <p class="card-title font-weight-bold">Changarro</p>
