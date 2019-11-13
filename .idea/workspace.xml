@@ -6,9 +6,6 @@
       <change beforePath="$PROJECT_DIR$/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,7 +86,7 @@
       <workItem from="1573190086044" duration="1038000" />
       <workItem from="1573272692258" duration="627000" />
       <workItem from="1573508580844" duration="8201000" />
-      <workItem from="1573602034045" duration="5994000" />
+      <workItem from="1573602034045" duration="8216000" />
     </task>
     <servers />
   </component>

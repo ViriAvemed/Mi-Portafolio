@@ -1,5 +1,4 @@
 //FUNCTION PRELOADER
-
 $(window).load(()=> {
     $(".loading").addClass("spin");
 
