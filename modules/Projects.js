@@ -16,8 +16,8 @@ let Projects = {
                                        League of Legends.
                                        </p>
                                         <div class=" d-flex justify-content-center ">
-                                           <a  class="btn btn-light btn-block" href="https://anabahena.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank" >Proyecto</a>
-                                           <a  class="btn btn-light btn-block mt-0 ml-1"  href="https://github.com/ViriAvemed/MEX-Data-Lovers-008"  target="_blank" >Código</a>
+                                           <a  class="btn btn-dark btn-block" href="https://anabahena.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank" >Proyecto</a>
+                                           <a  class="btn btn-dark btn-block mt-0 ml-1"  href="https://github.com/ViriAvemed/MEX-Data-Lovers-008"  target="_blank" >Código</a>
                                         </div>
                                     </div>
                                 </div>
@@ -30,8 +30,8 @@ let Projects = {
                                             con  HTML5, Javascrip, Bootstrap 4 y Firebase.
                                         </p>
                                         <div class=" d-flex justify-content-center ">
-                                            <a class="btn btn-light btn-block" href="https://sofiamejiamuro.github.io/WOMENDEV-SocialNetworkProject/" target="_blank" >Proyecto</a>
-                                            <a class="btn btn-light btn-block mt-0 ml-1" href="https://github.com/ViriAvemed/MEX008-social-network" target="_blank" >Código</a>
+                                            <a class="btn btn-dark btn-block" href="https://sofiamejiamuro.github.io/WOMENDEV-SocialNetworkProject/" target="_blank" >Proyecto</a>
+                                            <a class="btn btn-dark btn-block mt-0 ml-1" href="https://github.com/ViriAvemed/MEX008-social-network" target="_blank" >Código</a>
                                         </div>
                                     </div>
                                 </div>
@@ -43,8 +43,8 @@ let Projects = {
                                         Web-app creada para tomar la orden del restaurante Pan D´ Monium , realizada con HTML5, CSS3, Angular, Angular Material y Firebase.
                                         </p>
                                         <div class="d-flex justify-content-center ">
-                                            <a href="https://anabahena.github.io/MEX008-FE-Burger-Queen/" class="btn btn-light btn-block">Proyecto</a>
-                                            <a href="https://github.com/anabahena/MEX008-FE-Burger-Queen"  target="_blank" class="btn btn-light btn-block mt-0 ml-1">Código</a>
+                                            <a href="https://anabahena.github.io/MEX008-FE-Burger-Queen/" class="btn btn-dark btn-block">Proyecto</a>
+                                            <a href="https://github.com/anabahena/MEX008-FE-Burger-Queen"  target="_blank" class="btn btn-dark btn-block mt-0 ml-1">Código</a>
                                         </div>
                                     </div>
                                 </div>

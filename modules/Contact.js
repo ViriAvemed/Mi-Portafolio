@@ -17,10 +17,7 @@ let Contact = {
                     <div class="grow col-12 col-sm-6 col-md-3 d-flex justify-content-center">
                     <a href="mailto:viridiana.avem@gmail.com"><img title="viridiana.avem@gmail.com" class="reds" src="css/img/gmail.png" alt="gmail"></a>
                         
-                    </div>
-<!--                    <div class=" grow col-12 col-sm-6 col-md-3 d-flex justify-content-center">-->
-<!--                        <img class=" reds" src="css/img/llamada-de-telefono-inteligente.png" alt="Linkedin">-->
-<!--                    </div>-->
+                    </div>                
                 </div>
           
             </div>
