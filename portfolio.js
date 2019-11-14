@@ -35,18 +35,18 @@ $(window).load(()=> {
     const goUp =()=> {
         $(".up").show();
         $(".up").animate({
-            right: "-=100%"
+            top: "-=100%"
         }, 1000, ()=> {
-            $(this).hide();
+            $(".up").hide();
         });
     };
 
     const goDown =()=>  {
         $(".down").show();
         $(".down").animate({
-            left: "-=100%"
+            bottom: "-=100%"
         }, 1000, ()=> {
-            $(this).hide();
+            $(".down").hide();
         });
     };
 

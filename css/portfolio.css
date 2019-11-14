@@ -166,20 +166,20 @@ div .loading .spin .class{
 
 .up {
     background-color: black;
-    width: 50vw;
-    height: 100vh;
+    width: 100vw;
+    height: 50vh;
     position: absolute;
-    right: 0;
+    top: 0;
     z-index:2;
 
 }
 
 .down {
     background-color: black;
-    width: 50vw;
-    height: 100vh;
+    width: 100vw;
+    height: 50vh;
     position: absolute;
-    left: 0;
+    bottom: 0;
     z-index:2;
 }
 
@@ -319,7 +319,7 @@ body .wrapper2 {
     height: 100vh;
     position: absolute;
     overflow: hidden;
-    z-index: 1;
+
 }
 
 .wrapper2 ul {
@@ -366,6 +366,7 @@ body .wrapper2 .overlay.anim {
     animation: menu-anim 0.5s 1 ease-out normal;
     width: 100%;
     transition: all 0.5s ease;
+    z-index: 1;
 }
 body .wrapper2 .overlay.anim.reverse-anim {
     left: 0;
@@ -574,7 +575,7 @@ body .wrapper2 .overlay ul li a:hover:after {
 }
 
 
-/*Projects*/
+/*PROJECTS*/
 .card {
     margin-bottom: 40px;
     margin-right: 1em;
@@ -626,7 +627,7 @@ body .wrapper2 .overlay ul li a:hover:after {
 }
 
 
-/*knowledge*/
+/*KNOWLEDGE*/
 
 .about-knowledge{
     padding-top: 7%;
