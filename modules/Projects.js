@@ -10,13 +10,13 @@ let Projects = {
                                 <div class="card border rounded col-sm-12 col-md-4">
                                     <img src="css/img/dataLovers.PNG" class="card-img-top img-fluid imagen" alt="">
                                     <div class="card-body">
-                                       <p class="card-title font-weight-bold">Data-Lovers </p>
+                                       <p class="card-title font-weight-bold">Data-League of legends </p>
                                        <p class="card-text text-justify">
                                        Permite ordenar y filtrar las  características de los campeones del juego en línea
                                        League of Legends.
                                        </p>
                                         <div class=" d-flex justify-content-center">
-                                           <a  class="btn btn-dark btn-block" href="https://anabahena.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank" >Proyecto</a>
+                                           <a  class="btn btn-dark btn-block" href="https://viriavemed.github.io/MEX-Data-Lovers-008/src/" target="_blank" >Proyecto</a>
                                            <a  class="btn btn-dark btn-block mt-0 ml-1"  href="https://github.com/ViriAvemed/MEX-Data-Lovers-008"  target="_blank" >Código</a>
                                         </div>
                                     </div>
@@ -24,13 +24,13 @@ let Projects = {
                                 <div class="card border rounded col-sm-12 col-md-4">
                                     <img src="css/img/redSocial.PNG" class="card-img-top img-fluid imagen" alt="">
                                     <div class="card-body">
-                                        <p class="card-title font-weight-bold">Womendevs </p>
+                                        <p class="card-title font-weight-bold">Women developers </p>
                                         <p class="card-text text-justify">
                                             Red social para mujeres del mundo tech, Sigle-Page Application elaborada
                                             con  HTML5, Javascrip, Bootstrap 4 y Firebase.
                                         </p>
                                         <div class=" d-flex justify-content-center ">
-                                            <a class="btn btn-dark btn-block" href="https://sofiamejiamuro.github.io/WOMENDEV-SocialNetworkProject/" target="_blank" >Proyecto</a>
+                                            <a class="btn btn-dark btn-block" href="https://github.com/ViriAvemed/MEX008-social-network" target="_blank" >Proyecto</a>
                                             <a class="btn btn-dark btn-block mt-0 ml-1" href="https://github.com/ViriAvemed/MEX008-social-network" target="_blank" >Código</a>
                                         </div>
                                     </div>
