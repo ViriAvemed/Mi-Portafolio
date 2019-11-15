@@ -10,7 +10,7 @@ let Projects = {
                                 <div class="card border rounded col-sm-12 col-md-4">
                                     <img src="css/img/dataLovers.PNG" class="card-img-top img-fluid imagen" alt="">
                                     <div class="card-body">
-                                       <p class="card-title font-weight-bold">Data-League of legends </p>
+                                       <p class="card-title font-weight-bold">Data-League of Legends </p>
                                        <p class="card-text text-justify">
                                        Permite ordenar y filtrar las  características de los campeones del juego en línea
                                        League of Legends.
@@ -43,8 +43,8 @@ let Projects = {
                                         Web-app creada para tomar la orden del restaurante Pan D´ Monium , realizada con HTML5, CSS3, Angular, Angular Material y Firebase.
                                         </p>
                                         <div class="d-flex justify-content-center ">
-                                            <a href="https://anabahena.github.io/MEX008-FE-Burger-Queen/" class="btn btn-dark btn-block">Proyecto</a>
-                                            <a href="https://github.com/anabahena/MEX008-FE-Burger-Queen"  target="_blank" class="btn btn-dark btn-block mt-0 ml-1">Código</a>
+                                            <a href="https://viriavemed.github.io/Changarro/" class="btn btn-dark btn-block">Proyecto</a>
+                                            <a href="https://github.com/ViriAvemed/Changarro"  target="_blank" class="btn btn-dark btn-block mt-0 ml-1">Código</a>
                                         </div>
                                     </div>
                                 </div>
