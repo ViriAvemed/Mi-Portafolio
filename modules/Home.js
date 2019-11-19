@@ -10,7 +10,7 @@ let Home = {
                     <div class="col-sm-12 col-md-8 colName">
                         <p class="myName">VIRIDIANA </p>
                         <p class="job">AVELLANEDA MEDINA</p>
-                        <p class="job">DESARROLLADORA FROND-END</p>
+                        <p class="job">DESARROLLADORA FRONT-END</p>
                     </div>
                 </div>
             </div>`;

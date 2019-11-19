@@ -21,7 +21,7 @@ let Projects = {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card border rounded col-sm-12 col-md-4">
+                                <div class="card border rounded col-sm-12 col-md-4 ">
                                     <img src="css/img/redSocial.PNG" class="card-img-top img-fluid imagen" alt="">
                                     <div class="card-body">
                                         <p class="card-title font-weight-bold">Women developers </p>
