@@ -34,9 +34,9 @@ let About = {
                           </div>
                           <div id="btnCV" class="row containerAboutMeTitles">
                           <div  class="d-flex justify-content-end mt-3">
-                            <a href="css/img/Avellaneda_Viridiana_CV2.pdf" target="_blank"  class="d-none d-sm-block btn btn btn-outline-dark btn-block mt-0 ml-1 mr-1 btnAboutMe">Abrir currículum</a>
-                            <a href="css/img/Avellaneda_Viridiana_CV2.pdf" target="_blank"  class="d-block d-sm-none btn btn btn-outline-dark btn-block mt-0 ml-1 mr-1 btnAboutMe">CV</a>
-                            <a href="css/img/Avellaneda_Viridiana_CV2.pdf" download="Acme Documentation (ver. 2.0.1).pdf" class="d-none d-sm-block btn btn btn-outline-dark btn-block mt-0 ml-1 btnAboutMe">Descargar currículum</a>
+                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" target="_blank"  class="d-none d-sm-block btn btn btn-outline-dark btn-block mt-0 ml-1 mr-1 btnAboutMe">Abrir currículum</a>
+                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" target="_blank"  class="d-block d-sm-none btn btn btn-outline-dark btn-block mt-0 ml-1 mr-1 btnAboutMe">CV</a>
+                            <a href="css/img/Avellaneda_Viridiana_CV.pdf" download="Acme Documentation (ver. 2.0.1).pdf" class="d-none d-sm-block btn btn btn-outline-dark btn-block mt-0 ml-1 btnAboutMe">Descargar currículum</a>
                           </div>
                           </div>
                     </div>
