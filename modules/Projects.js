@@ -21,16 +21,16 @@ let Projects = {
                                     </div>
                                 </div>
                             <div class="card border rounded col-sm-12 col-md-4 ">
-                                    <img src="css/img/redSocial.PNG" class="card-img-top img-fluid imagen" alt="">
+                                    <img src="css/img/movies.png" class="card-img-top img-fluid imagen" alt="">
                                     <div class="card-body">
-                                        <p class="card-title font-weight-bold">Women developers </p>
+                                        <p class="card-title font-weight-bold">Movies App </p>
                                         <p class="card-text text-justify">
-                                            Red social para mujeres del mundo tech, Sigle-Page Application elaborada
-                                            con  HTML5, Javascrip, Bootstrap 4 y Firebase.
+                                            Wep app responsive que muestra información de películas apartir del consumo de un API, realizada con REACT JS, 
+                                           HTML5, Bootstrap React y scss.
                                         </p>
                                         <div class=" d-flex justify-content-center ">
-                                            <a class="btn btn-dark btn-block" href="https://viriavemed.github.io/Red-Social-Women-Developers/" target="_blank" >Proyecto</a>
-                                            <a class="btn btn-dark btn-block mt-0 ml-1" href="https://github.com/ViriAvemed/Red-Social-Women-Developers" target="_blank" >Código</a>
+                                            <a class="btn btn-dark btn-block" href="https://viriavemed.github.io/MoviesApp/#/" target="_blank" >Proyecto</a>
+                                            <a class="btn btn-dark btn-block mt-0 ml-1" href="https://github.com/ViriAvemed/MoviesApp" target="_blank" >Código</a>
                                         </div>
                                     </div>
                                 </div>
